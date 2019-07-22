@@ -11,7 +11,7 @@ class TestUser(unittest.TestCase):
         '''
         self.new_user = User ("Akinyi","1995")
 
-    def test_init(self):>
+    def test_init(self):
         '''
         This will validate whetehr the user is correctly registered
         '''
@@ -20,7 +20,7 @@ class TestUser(unittest.TestCase):
     
     def test_user_password(self):
         '''
-        This will check whether the password exists
+        This will check whether the password existss
         '''
         self.assertTrue(User.user_exist)
 
