@@ -18,14 +18,14 @@ As a user I would like to:
 
 # BDD
 
-|Behaviour                     | input example |  output example |
-| :---------------------------:|--------------:| ---------------:|
-| Sign up                      | input account | select option   |
-| generate a password          | gen           | password created|
-| add an existing password     | add           | password added  |
-| view passwords | input view  | view          | password list   |
-| delete password password     | input del     | password deleted|
-| exit to leave :( password    | input exit    | Please stay, Bye|
+|Behaviour                     | input example       |  output example    |
+| :---------------------------:|--------------------:| ------------------:|
+| Sign up                      | input account       | select option      |
+| generate a password          | input gen           | password created   |
+| add an existing password     | input add           | password added     |
+| view passwords | input view  | input view          | password list      |
+| delete password password     | input del           | password deleted   |
+| exit to leave :( password    | input exit          | Please stay, Bye   |
 
 
 
