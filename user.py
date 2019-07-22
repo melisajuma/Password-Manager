@@ -2,8 +2,8 @@ class User:
     '''
     The User class will contain user details
     '''
->
-    def __init__(self, login, password):
+
+    def __init__(self, login, password):>
         '''
         This will ensure the user class has unique properties
         '''
