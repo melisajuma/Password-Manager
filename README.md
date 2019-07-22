@@ -36,7 +36,7 @@ You Need to Install the Following in order for the application to work
 *pip
 *pyperclip
 
-# Cloning
+## Cloning
 In your terminal:
 
 *** $ git clone https://github.com/melisajuma/Password-Manager.git
@@ -45,12 +45,12 @@ In your terminal:
 
 Running the Application
 
-# To run the application, in your terminal:
+## To run the application, in your terminal:
 
 *** $ chmod +x run.py
 *** $ ./run.py
 
-# Testing the Application
+## Testing the Application
 
 To run the tests for the class file:
 
