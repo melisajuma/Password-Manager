@@ -1,6 +1,5 @@
 # Password-Manager
 
-
 Password-Manager is a python CLI (command line interface) application that manages passwords for different accounts and relieves the user of the burden of managing very many passwords. Password manager enables one to: generate a randomn password(s), delete or view existing passwords or simply have a display of all the stored passwords.
 
 ## Author
@@ -26,6 +25,16 @@ As a user I would like to:
 | view passwords| Input view   | list of all the passwords |
 |delete password| input del| password deleted|
 |exit to leave :(|input exit | Please stay, Bye :(|
+
+
+
+## BBD
+| Behaviour | input example | output example |
+|Show quote info |  Input quote and author  | Adds info to the component|
+|Submit quote| Click submit button  |Quote is added to the quote list|
+| Upvote and Downvote | Clcik upvote and downvote button  |Adds or deducts quotes |    
+| Delete | Click delete icon    | Quote is deleted  |
+
 
 
 ## SetUp / Installation Requirements
