@@ -34,7 +34,7 @@ class TestPassword(unittest.TestCase):
         self.new_password.save_password()
         self.assertEqual(len(Password.password_list), 1)
 
-    def test_add_generate_password(self):>
+    def test_add_generate_password(self):
         """
         This will check if the new password added to the list
         """
@@ -46,7 +46,7 @@ class TestPassword(unittest.TestCase):
         """
         Here it checks weather the display_Password function will return the password in the password list
         """
-    def save_password(self):
+    def save_password(self):>
         self.new_password.save_password()
         new_pass = Password("facebook", "2017")
         new_pass.save_password()
