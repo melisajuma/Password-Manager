@@ -63,7 +63,7 @@ def password_exists(acc):
     return Password.password_exist(acc)
 
 
-def main():>
+def main():
     """
     This is where the user will run all their functions
     """
@@ -72,7 +72,7 @@ def main():>
     print("Welcome to PASSWORD LOCKER. We help you manage your passwords so that you can worry about things that matter\n")
     print("-"*6, "SIGN UP", "-"*6, "\n")
 
-    user_name = input("User Name\n")
+    user_name = input("User Name\n")>
     user_pass = getpass.getpass('Password:\n')
 
     # new_user(login,password)
