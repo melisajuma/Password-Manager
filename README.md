@@ -37,11 +37,12 @@ You Need to Install the Following in order for the application to work
 
 # Cloning
 In your terminal:
-***$ git clone https://github.com/melisajuma/Password-Manager.git
+
+*** $ git clone https://github.com/melisajuma/Password-Manager.git
 
 $ cd Password-Manager
 Running the Application
-*To run the application, in your terminal:
+*** To run the application, in your terminal:
 
 $ chmod +x run.py
 $ ./run.py
