@@ -18,20 +18,14 @@ As a user I would like to:
 
 # BDD
 
-| Behaviour   | input example    | output example |
-|Sign up      |  Input username,password  | select option|
-|generate a password| input account |password generated|
-| add an existing password| input account |Password added | 
-| view passwords| Input view   | list of all the passwords |
-|delete password| input del| password deleted|
-|exit to leave :(|input exit | Please stay, Bye :(|
-
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
+|Behaviour                     | input example |  output example |
+| :---------------------------:|--------------:| ---------------:|
+| Sign up                      | input account | select option   |
+| generate a password          | gen           | password created|
+| add an existing password     | add           | password added  |
+| view passwords | input view  | view          | password list   |
+| delete password password     | input del     | password deleted|
+| exit to leave :( password    | input exit    | Please stay, Bye|
 
 
 
