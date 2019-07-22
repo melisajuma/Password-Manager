@@ -10,7 +10,7 @@ class User:
         self.login = login
         self.password = password
 
-    def user_exist(self, password):>
+    def user_exist(self, password):
         '''
         This will first verify that the user exists before showing the passwords
         Args:
@@ -18,6 +18,7 @@ class User:
         return:
             boolean
         '''
+        >
         if self.password == password:
             return True
         else:
