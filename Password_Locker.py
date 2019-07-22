@@ -29,7 +29,7 @@ class Password:
         """
         return self.password_list
     @classmethod
-    def delete_password(self):>
+    def delete_password(self):
         """
         This function will delete the users password in the list
         Args:
@@ -41,7 +41,7 @@ class Password:
         #         cls.password_list.remove(password)
 
     @classmethod
-    def password_exist(cls, account):
+    def password_exist(cls, account):>
         """
         This function checks weather the password of the account exist
         Args:
