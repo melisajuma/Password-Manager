@@ -18,7 +18,6 @@ class User:
         return:
             boolean
         '''
-        >
         if self.password == password:
             return True
         else:
