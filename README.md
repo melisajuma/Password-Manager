@@ -31,6 +31,7 @@ As a user I would like to:
 
 ## SetUp / Installation Requirements
 You Need to Install the Following in order for the application to work
+
 *python3.6
 *pip
 *pyperclip
@@ -40,12 +41,14 @@ In your terminal:
 
 *** $ git clone https://github.com/melisajuma/Password-Manager.git
 
-$ cd Password-Manager
-Running the Application
-*** To run the application, in your terminal:
+*** $ cd Password-Manager
 
-$ chmod +x run.py
-$ ./run.py
+Running the Application
+
+# To run the application, in your terminal:
+
+*** $ chmod +x run.py
+*** $ ./run.py
 
 # Testing the Application
 
