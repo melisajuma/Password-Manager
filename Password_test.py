@@ -53,7 +53,7 @@ class TestPassword(unittest.TestCase):
         self.assertEqual(len(Password.password),
                          len(Password.display_passwords()))
 
-    def test_delete(self):>
+    def test_delete(self):
         """
         This test will check whether the password gets deleted from the passwords list
         """
@@ -63,7 +63,7 @@ class TestPassword(unittest.TestCase):
         Password.delete_password("instagram")
         self.assertEqual(len(Password.password_list), 1)
 
-    def test_password_exist(self):
+    def test_password_exist(self):>
         """
         This will check whether the password_exists function works
         """
