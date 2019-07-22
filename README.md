@@ -27,13 +27,11 @@ As a user I would like to:
 |exit to leave :(|input exit | Please stay, Bye :(|
 
 
-
-## BBD
-| Behaviour | input example | output example |
-|Show quote info |  Input quote and author  | Adds info to the component|
-|Submit quote| Click submit button  |Quote is added to the quote list|
-| Upvote and Downvote | Clcik upvote and downvote button  |Adds or deducts quotes |    
-| Delete | Click delete icon    | Quote is deleted  |
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
 
 
 
