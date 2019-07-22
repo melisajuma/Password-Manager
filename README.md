@@ -1,4 +1,4 @@
-#Password-Manager
+# Password-Manager
 
 
 Password-Manager is a python CLI (command line interface) application that manages passwords for different accounts and relieves the user of the burden of managing very many passwords. Password manager enables one to: generate a randomn password(s), delete or view existing passwords or simply have a display of all the stored passwords.
@@ -7,7 +7,7 @@ Password-Manager is a python CLI (command line interface) application that manag
 Melisa JUma™ (9/07/2019)
 
 
-##User Stories
+## User Stories
 
 These are the behaviours/features that the application implements:
 
@@ -17,7 +17,7 @@ As a user I would like to:
 ***Store my existing login credentials
 ***Generate a password for a new credential/account
 
-#BDD
+# BDD
 
 | Behaviour   | input example    | output example |
 |Sign up      |  Input username,password  | select option|
@@ -28,13 +28,13 @@ As a user I would like to:
 |exit to leave :(|input exit | Please stay, Bye :(|
 
 
-##SetUp / Installation Requirements
+## SetUp / Installation Requirements
 You Need to Install the Following in order for the application to work
 *python3.6
 *pip
 *pyperclip
 
-#Cloning
+# Cloning
 In your terminal:
 ***$ git clone https://github.com/melisajuma/Password-Manager.git
 
@@ -45,13 +45,13 @@ Running the Application
 $ chmod +x run.py
 $ ./run.py
 
-#Testing the Application
+# Testing the Application
 
 To run the tests for the class file:
 
 $ python3.6 Password_Locker_test.py
 
-##Technologies Used
+## Technologies Used
 Python3.6
 License
 MIT ©2019 Melisa JUma

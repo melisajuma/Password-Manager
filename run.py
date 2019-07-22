@@ -114,7 +114,7 @@ def main():
                     delete_password(acc)
                     print(f"{acc} password deleted\n")
                 else:
-                    print("Password doesn't exist\n")>
+                    print("Password doesn't exist\n")
             else:
                 print("\nOops!. Wrong password. Try Again\n")
         elif command == "view":
