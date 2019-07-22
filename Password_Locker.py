@@ -15,7 +15,7 @@ class Password:
         self.username = username
         self.password = password
 
-    def save_password(self)):
+    def save_password(self):
         """
         This function will add users password to the password array
         """
@@ -29,7 +29,7 @@ class Password:
         """
         return self.password_list
     @classmethod
-    def delete_password(self):
+    def delete_password(self):>
         """
         This function will delete the users password in the list
         Args:
