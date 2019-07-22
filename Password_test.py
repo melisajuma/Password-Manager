@@ -34,7 +34,7 @@ class TestPassword(unittest.TestCase):
         self.new_password.save_password()
         self.assertEqual(len(Password.password_list), 1)
 
-    def test_add_generate_password(self):
+    def test_add_generate_password(self):>
         """
         This will check if the new password added to the list
         """
