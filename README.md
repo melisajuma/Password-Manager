@@ -3,7 +3,7 @@
 Password-Manager is a python CLI (command line interface) application that manages passwords for different accounts and relieves the user of the burden of managing very many passwords. Password manager enables one to: generate a randomn password(s), delete or view existing passwords or simply have a display of all the stored passwords.
 
 ## Author
-Melisa JUma™ (9/07/2019)
+Melisa JUma™ (22/07/2019)
 
 
 ## User Stories
