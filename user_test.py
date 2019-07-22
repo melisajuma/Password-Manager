@@ -5,13 +5,13 @@ class TestUser(unittest.TestCase):
     '''
     This class will contain all tests for the user class
     '''
-    def setUp(self):>
+    def setUp(self):
         '''
         This will first create new user before each test
         '''
         self.new_user = User ("Akinyi","1995")
 
-    def test_init(self):
+    def test_init(self):>
         '''
         This will validate whetehr the user is correctly registered
         '''
