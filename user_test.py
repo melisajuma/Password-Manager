@@ -1,11 +1,11 @@
 import unittest
-from user import User>
+from user import User
 
 class TestUser(unittest.TestCase):
     '''
     This class will contain all tests for the user class
     '''
-    def setUp(self):
+    def setUp(self):>
         '''
         This will first create new user before each test
         '''
