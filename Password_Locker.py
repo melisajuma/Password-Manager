@@ -1,7 +1,7 @@
 from random import random
 
 
-class Password:
+class Password: >
     """
     Here is where we will use to create the paswords
     """

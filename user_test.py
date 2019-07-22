@@ -20,7 +20,7 @@ class TestUser(unittest.TestCase):
     
     def test_user_password(self):
         '''
-        This will check whether the password existss
+        This will check whether the password exists
         '''
         self.assertTrue(User.user_exist)
 
