@@ -46,14 +46,14 @@ class TestPassword(unittest.TestCase):
         """
         Here it checks weather the display_Password function will return the password in the password list
         """
-    def save_password(self):>
+    def save_password(self):
         self.new_password.save_password()
         new_pass = Password("facebook", "2017")
         new_pass.save_password()
         self.assertEqual(len(Password.password),
                          len(Password.display_passwords()))
 
-    def test_delete(self):
+    def test_delete(self):>
         """
         This test will check whether the password gets deleted from the passwords list
         """
