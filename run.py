@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.6
 from Password_Locker import Password
-from user import User>
+from user import User
 import getpass  # to hide the pass
 
 
@@ -63,7 +63,7 @@ def password_exists(acc):
     return Password.password_exist(acc)
 
 
-def main():
+def main():>
     """
     This is where the user will run all their functions
     """
