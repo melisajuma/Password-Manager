@@ -1,13 +1,13 @@
 from random import random
 
 
-class Password: >
+class Password: 
     """
     Here is where we will use to create the paswords
     """
     password_list = []  # list to store user  passwords
 
-    def _init_(self, account, username, password):
+    def _init_(self, account, username, password)):
         """
         This function will allow the user to create instances of the class with unique details in each instance
         """
